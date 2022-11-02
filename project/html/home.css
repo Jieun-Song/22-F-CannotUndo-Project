@@ -1,10 +1,22 @@
+*{
+    margin: 0;
+    margin-block-end : 0;
+    margin-block-start: 0;
+}
+
 body{
     margin: 0%;
+    padding-top: 100px;
 }
 
 /* -------------------------------------------------- */
 #nav{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
     padding : 0 100px 10px 100px;
+    height: 100px;
     background-color: bisque;
     display: flex;
     justify-content: space-between;
@@ -60,61 +72,102 @@ nav>ul>li{
 }
 
 .placement{
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
 
-.placement1{
+.placement1, .placement2{
     height : 100%;
     width: 50%;
     background-color: blueviolet;
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
-#start_placement1_text>h1,h4,button{
-    margin: 0;
-    margin-block-end : 0;
-    margin-block-start: 0;
-}
-
-.placement2{
-    height : 100%;
-    width: 50%;
-    background-color: rgb(116, 162, 161);
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-}
-
-.placement2>img{
-    width: 100%;
-    height: 100%;
-}
-
-/* --------------------------------- */
-
-.intro_fun{
-    height: 450px;
 }
 
 .placement1>img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
-#intro_placement2_text{
+.placement2>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* --------------------------------- */
+
+#intro> div{
+    height: 450px;
+    background-color: antiquewhite;
+}
+
+.intro_placement2_text{
+    margin: 5%;
     width: 40%;
     height: 40%;
 }
 
-#intro_placement2_text>img{
+.intro_placement2_text>img{
     width: 100px;
     height :100px;
 }
 
+.intro_placement2_text>h2,h4{
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------------------- */
+
+#intro_recom{
+    height: 450px;
+    background-color: rgb(152, 152, 233);
+    
+}
+
+#recom_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#recom_info>div>img{
+    width: 100px;
+    height :100px;
+}
+
+#recom_info_people>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recom_people>img{
+    width: 100px;
+    height :100px;
+}
+
+/* --------------------------------------------- */
+
+#start_last{
+    height: 450px;
+}
+
+#start_last>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#start_last>div>div>img{
+    height: 100%;
+    width: 100%;
+}
