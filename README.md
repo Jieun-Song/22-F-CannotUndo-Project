@@ -43,3 +43,9 @@ https://www.figma.com/file/UGQB60jhYd8smFkdIkU5UL/Untitled?node-id=1%3A25
 
 
 ## 학습한 내용
+
+- git commit conversation rules
+https://velog.io/@jiheon/Git-Commit-message-%EA%B7%9C%EC%B9%99
+
+- node.js - HTML 연결
+https://selosele.github.io/2020/11/23/nodejs-create-webserver/
